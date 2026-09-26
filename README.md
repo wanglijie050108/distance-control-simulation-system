@@ -47,7 +47,7 @@ Arduino IDE 和 Python 都不是必需的：固件已经编译，上位机使用
 
 - GP2D12 输出：Arduino `A0`。
 - 电机/继电器控制：Arduino `D7`。
-- LCD：`RS=D2, E=D3, D4=D4, D5=D5, D6=D11, D7=D12`。
+- LCD：`RS=D12, E=D11, D4=D5, D5=D4, D6=D3, D7=D2`。
 - 串口：`9600 baud, 8 data bits, no parity, 1 stop bit`。
 - 距离 `> 36 cm`：电机 ON；距离 `<= 36 cm`：电机 OFF。
 

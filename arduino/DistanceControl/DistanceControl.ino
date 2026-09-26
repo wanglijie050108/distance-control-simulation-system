@@ -6,13 +6,13 @@
 const char STUDENT_ID[] = "23009200496";
 const float DISTANCE_THRESHOLD_CM = 36.0;
 
-// 现有 Proteus 原理图引脚：RS=D2, E=D3, D4=D4, D5=D5, D6=D11, D7=D12
-const uint8_t LCD_RS = 2;
-const uint8_t LCD_EN = 3;
-const uint8_t LCD_D4 = 4;
-const uint8_t LCD_D5 = 5;
-const uint8_t LCD_D6 = 11;
-const uint8_t LCD_D7 = 12;
+// Proteus 原理图实际引脚：RS=D12, E=D11, D4=D5, D5=D4, D6=D3, D7=D2
+const uint8_t LCD_RS = 12;
+const uint8_t LCD_EN = 11;
+const uint8_t LCD_D4 = 5;
+const uint8_t LCD_D5 = 4;
+const uint8_t LCD_D6 = 3;
+const uint8_t LCD_D7 = 2;
 const uint8_t DISTANCE_SENSOR_PIN = A0;  // Proteus 中标记为 IO14
 const uint8_t MOTOR_PIN = 7;
 
